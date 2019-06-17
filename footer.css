@@ -1,0 +1,27 @@
+*{margin:0; padding:0;}
+footer
+{ 
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+    background: #610B21;
+    margin-bottom: 20px;
+
+}
+footer p
+{
+color: white;
+font-size: 30px;
+text-align:center;
+}
+footer p a
+{
+    color: aqua;
+    text-decoration: none;
+
+}
+/* Todos los textos */
+p
+{
+    text-align:center;
+}

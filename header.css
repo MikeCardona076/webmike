@@ -1,0 +1,218 @@
+
+body
+{
+    background-image: url();
+}
+*{
+    margin: 0; padding: 0;
+}
+
+header
+{
+height: 50%;
+width: 100%;
+background: #610B21;
+overflow: hidden;
+
+}
+.wrapper
+{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .logo
+{
+    font-size: 40px;
+    float: left;
+    line-height: 200px;
+    color: red;
+}
+header nav 
+{
+    float: right;
+    font-size: 28px;
+    line-height: 100px;
+}
+
+*{margin: 0; padding:0;}
+
+header nav a{
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    -webkit-transition: all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+}
+header nav a:hover
+{
+background: coral;
+border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        background: white;
+    }
+    header
+    {
+        background:#610B21;
+    }
+    header .logo, header nav
+    {
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        
+    }
+    .header2
+    {
+        height: auto;
+    }
+    .header2 .logo,
+    .header2 nav
+    {
+        line-height: 50px;
+    }
+}
+.contenido p{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body
+{
+    background-image: url();
+}
+*{
+    margin:0; padding:0;
+
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #610B21;
+    margin-bottom: 20px;
+}
+.wrapper
+{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+header .logo
+{
+    color: red;
+    font-size:50px;
+   line-height: 100px;
+   float: left;
+}
+header nav 
+{
+    float: right;
+    font-size: 28px;
+    line-height: 70px;
+}
+
+*{margin: 0; padding:0;}
+
+header nav a
+{
+display: inline-block;
+color: azure;
+text-decoration: none;
+padding: 10px 20px;
+line-height: normal;
+-webkit-transition: all 500ms ease;
+-o-transition:all 500ms ease;
+transition: all 500ms ease;
+}
+header nav a:hover
+{
+background: coral;
+border-radius: 50px;
+}
+
+.header2
+{
+    position: fixed;
+    height: 100px;
+}
+.header2 .logo
+{
+    line-height: 100px;
+    font-size: 30px;
+}
+.header2 nav
+{
+line-height: 50px;
+}
+.contenido p
+{
+    margin-bottom: 1em;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        background: white;
+    }
+    header
+    {
+        background:#610B21;
+    }
+    header .logo, header nav
+    {
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        
+    }
+    .header2
+    {
+        height: auto;
+    }
+    .header2 .logo,
+    .header2 nav
+    {
+        line-height: 50px;
+    }
+}
+.contenido p{
+    font-size: 30px;
+}
+
+ git push origin master */
